@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "description": "High performance laptop",
+    "price": 800,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 2,
+    "name": "Phone",
+    "description": "Smartphone with great camera",
+    "price": 500,
+    "image": "https://via.placeholder.com/300"
+  }
+]
