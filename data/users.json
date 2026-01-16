@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "email": "admin@productify.com",
+    "email": "admin.com",
     "password": "123456",
     "name": "Admin User"
   }
