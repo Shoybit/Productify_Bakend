@@ -1,72 +1,252 @@
 [
   {
     "id": 1,
-    "title": "iPhone 14",
-    "price": 999,
+    "title": "Wireless Bluetooth Headphones",
+    "price": 2999,
     "category": "Electronics",
-    "brand": "TechCore",
-    "rating": 4.8,
-    "stock": 12,
-    "image": "/iphone.png"
-  },
-  {
-    "id": 1768424416837,
-    "title": "Rerum vel voluptatem",
-    "price": 39,
-    "category": "Electronics",
-    "brand": "Generic",
-    "rating": 0,
-    "stock": 0,
-    "image": "Omnis sunt cupidatat"
-  },
-  {
-    "id": 1768424496434,
-    "title": "Suscipit perferendis",
-    "price": 562,
-    "category": "Books",
-    "brand": "Generic",
-    "rating": 0,
-    "stock": 0,
-    "image": "data:image/jpeg;base64,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"
-  },
-  {
-    "id": 1768424946907,
-    "title": "Officia a ut sunt si",
-    "price": 991.98,
-    "category": "Fashion",
-    "brand": "Generic",
+    "brand": "SoundMax",
     "rating": 4.5,
-    "stock": 71,
-    "image": "https://ibb.co/Fbrqwqvf"
+    "stock": 25,
+    "image": "https://via.placeholder.com/300"
   },
   {
-    "id": 1768474509963,
-    "title": "Maxime eu est deleni",
-    "price": 758,
-    "category": "Beauty",
-    "brand": "TechCore",
-    "rating": 3.5,
-    "stock": 89,
-    "image": "Iste qui odit eos su"
+    "id": 2,
+    "title": "Smart Watch Fitness Tracker",
+    "price": 3799,
+    "category": "Electronics",
+    "brand": "FitPro",
+    "rating": 4.3,
+    "stock": 15,
+    "image": "https://via.placeholder.com/300"
   },
   {
-    "id": 1768474932375,
-    "title": "Adipisci nisi pariat",
-    "price": 59,
-    "category": "Books",
-    "brand": "HomeEssentials",
-    "rating": 5,
-    "stock": 45,
-    "image": "Similique deserunt c"
+    "id": 3,
+    "title": "Mechanical Gaming Keyboard",
+    "price": 4899,
+    "category": "Electronics",
+    "brand": "KeyBlaze",
+    "rating": 4.6,
+    "stock": 10,
+    "image": "https://via.placeholder.com/300"
   },
   {
-    "id": 1768477444757,
-    "title": "Ratione provident v",
-    "price": 330,
+    "id": 4,
+    "title": "LED Table Lamp",
+    "price": 1499,
+    "category": "Home & Kitchen",
+    "brand": "BrightHome",
+    "rating": 4.2,
+    "stock": 30,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 5,
+    "title": "Electric Kettle",
+    "price": 2199,
+    "category": "Home & Kitchen",
+    "brand": "HomeEase",
+    "rating": 4.4,
+    "stock": 20,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 6,
+    "title": "Non-Stick Frying Pan",
+    "price": 1799,
+    "category": "Home & Kitchen",
+    "brand": "CookWell",
+    "rating": 4.1,
+    "stock": 18,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 7,
+    "title": "Men's Casual T-Shirt",
+    "price": 999,
     "category": "Fashion",
+    "brand": "UrbanWear",
+    "rating": 4,
+    "stock": 40,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 8,
+    "title": "Women's Kurti",
+    "price": 1899,
+    "category": "Fashion",
+    "brand": "StyleAura",
+    "rating": 4.3,
+    "stock": 35,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 9,
+    "title": "Running Sneakers",
+    "price": 3299,
+    "category": "Fashion",
+    "brand": "RunFlex",
+    "rating": 4.5,
+    "stock": 22,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 10,
+    "title": "Football",
+    "price": 1299,
+    "category": "Sports",
+    "brand": "ProKick",
+    "rating": 4.2,
+    "stock": 28,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 11,
+    "title": "Yoga Mat",
+    "price": 899,
+    "category": "Sports",
+    "brand": "ZenFit",
+    "rating": 4.4,
+    "stock": 50,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 12,
+    "title": "Dumbbell Set",
+    "price": 2599,
+    "category": "Sports",
+    "brand": "IronCore",
+    "rating": 4.6,
+    "stock": 12,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 13,
+    "title": "Atomic Habits",
+    "price": 499,
+    "category": "Books",
+    "brand": "Penguin",
+    "rating": 4.8,
+    "stock": 60,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 14,
+    "title": "Daily Planner Journal",
+    "price": 399,
+    "category": "Books",
+    "brand": "NoteCraft",
+    "rating": 4.3,
+    "stock": 45,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 15,
+    "title": "Programming Basics Book",
+    "price": 699,
+    "category": "Books",
+    "brand": "TechReads",
+    "rating": 4.5,
+    "stock": 32,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 16,
+    "title": "Vitamin C Face Serum",
+    "price": 1199,
+    "category": "Beauty",
+    "brand": "GlowCare",
+    "rating": 4.4,
+    "stock": 26,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 17,
+    "title": "Moisturizing Face Cream",
+    "price": 899,
+    "category": "Beauty",
+    "brand": "SoftSkin",
+    "rating": 4.2,
+    "stock": 34,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 18,
+    "title": "Sunscreen SPF 50",
+    "price": 1099,
+    "category": "Beauty",
+    "brand": "SunSafe",
+    "rating": 4.5,
+    "stock": 29,
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 1768564563563,
+    "title": "Dicta anim ipsa inv",
+    "price": 426,
+    "category": "Home & Kitchen",
     "brand": "TechCore",
     "rating": 4,
-    "stock": 32,
-    "image": "sss"
+    "stock": 55,
+    "image": "Pariatur Odio quis"
+  },
+  {
+    "id": 1768564593799,
+    "title": "Illo ea modi anim co",
+    "price": 323,
+    "category": "Home & Kitchen",
+    "brand": "HomeEssentials",
+    "rating": 3.5,
+    "stock": 19,
+    "image": "Vitae magnam rerum u"
+  },
+  {
+    "id": 1768564823166,
+    "title": "Animi a veritatis v",
+    "price": 293,
+    "category": "Sports",
+    "brand": "HomeEssentials",
+    "rating": 5,
+    "stock": 73,
+    "image": "Iste praesentium ani"
+  },
+  {
+    "id": 1768564938713,
+    "title": "Nihil corporis possi",
+    "price": 628,
+    "category": "Fashion",
+    "brand": "Generic",
+    "rating": 4,
+    "stock": 95,
+    "image": "Aliqua Praesentium"
+  },
+  {
+    "id": 1768564969056,
+    "title": "Rerum mollit qui dui",
+    "price": 382,
+    "category": "Beauty",
+    "brand": "HomeEssentials",
+    "rating": 4,
+    "stock": 95,
+    "image": "Doloribus dolorum mi"
+  },
+  {
+    "id": 1768565078771,
+    "title": "Quam est assumenda v",
+    "price": 402,
+    "category": "Home & Kitchen",
+    "brand": "StyleHub",
+    "rating": 5,
+    "stock": 74,
+    "image": "Numquam cumque in al"
+  },
+  {
+    "id": 1768565185033,
+    "title": "Illum aliquam est",
+    "price": 711,
+    "category": "Fashion",
+    "brand": "Generic",
+    "rating": 4,
+    "stock": 36,
+    "image": "Reiciendis enim fugi"
   }
 ]

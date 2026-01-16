@@ -10,9 +10,8 @@ const getProductsFromFile = () => {
   return JSON.parse(data);
 };
 
-// =======================
-// GET ALL PRODUCTS
-// =======================
+
+// Get all Products
 router.get("/", (req, res) => {
   try {
     let products = getProductsFromFile();
@@ -24,7 +23,7 @@ router.get("/", (req, res) => {
       minPrice,
       maxPrice,
       rating,
-      sort,
+      sort = "newest",
       order = "asc",
       page = 1,
       limit = 9,
@@ -55,7 +54,11 @@ router.get("/", (req, res) => {
       products = products.filter(p => p.rating >= rating);
     }
 
-    if (sort) {
+    if (sort === "newest") {
+      products = [...products].reverse(); 
+    }
+
+    if (sort && sort !== "newest") {
       products.sort((a, b) =>
         order === "desc" ? b[sort] - a[sort] : a[sort] - b[sort]
       );
@@ -75,9 +78,10 @@ router.get("/", (req, res) => {
   }
 });
 
-// =======================
-// GET SINGLE PRODUCT BY ID  ✅ FIX
-// =======================
+
+
+// GET SINGLE PRODUCT BY ID 
+
 router.get("/:id", (req, res) => {
   try {
     const products = getProductsFromFile();
@@ -95,9 +99,9 @@ router.get("/:id", (req, res) => {
   }
 });
 
-// =======================
+
 // ADD PRODUCT
-// =======================
+
 router.post("/", (req, res) => {
   try {
     const products = getProductsFromFile();
